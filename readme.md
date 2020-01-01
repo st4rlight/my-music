@@ -47,24 +47,24 @@ qq音乐 `API` ：
 
 ## 运行截图
 
-![image-20191231195323027](./typora-imgs/image-20191231195323027.png)
+![image-20191231195323027](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195323027.png)
 
-![image-20191231195346184](./typora-imgs/image-20191231195346184.png)
+![image-20191231195346184](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195346184.png)
 
-![image-20191231195420946](./typora-imgs/image-20191231195420946.png)
+![image-20191231195420946](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195420946.png)
 
-![image-20191231195457213](./typora-imgs/image-20191231195457213.png)
+![image-20191231195457213](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195457213.png)
 
-![image-20191231195524166](./typora-imgs/image-20191231195524166.png)
+![image-20191231195524166](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195524166.png)
 
-![image-20191231195602580](./typora-imgs/image-20191231195602580.png)
+![image-20191231195602580](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195602580.png)
 
-![image-20191231195717437](./typora-imgs/image-20191231195717437.png)
+![image-20191231195717437](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195717437.png)
 
-![image-20191231195750705](./typora-imgs/image-20191231195750705.png)
+![image-20191231195750705](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195750705.png)
 
-![image-20191231195811856](./typora-imgs/image-20191231195811856.png)
+![image-20191231195811856](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195811856.png)
 
-![image-20191231195831199](./typora-imgs/image-20191231195831199.png)
+![image-20191231195831199](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195831199.png)
 
-![image-20191231195854654](./typora-imgs/image-20191231195854654.png)
+![image-20191231195854654](https://github.com/st4rlight/my-music/blob/master/typora-imgs/image-20191231195854654.png)
