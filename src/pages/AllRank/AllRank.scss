@@ -1,0 +1,46 @@
+.AllRank{
+    width: 100%;
+    height: 100%;
+
+    .item-scroll{
+        height: calc(100vh - 50PX - 34PX - 46PX);
+        .container{
+            padding: 16px 2vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            
+        }
+
+        .item-wrapper{
+            width: 48vw;
+            margin: 10px 0;
+
+            box-sizing: border-box;
+            padding: 0 2vw;
+            box-shadow: 0px 2px 6px 0px rgba(73, 73, 73, 0.1);
+
+            .cover{
+                position: relative;
+                .cover-img{
+                    width: 100%;
+                    height: 45vw;
+                }
+                &:hover{
+                    box-shadow: 0px 2px 6px 0px rgba(73, 73, 73, 0.8);
+                }
+
+                .frequency{
+                  position: absolute;
+                  font-size: 24px;
+                  color: white;
+                  right: 0;
+                  bottom: 15px;
+                  padding: 0 10px;
+                  background: rgba(102, 102, 102, 0.7);
+                }
+            }
+        }
+    }
+}

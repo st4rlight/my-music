@@ -1,0 +1,69 @@
+.index {
+  width: 100%;
+  height: 100%;
+  .common-bar-container{
+    position: fixed;
+    bottom: 45PX;
+    width: 100%;
+    height: 50PX;
+    z-index: 99;
+  }
+
+  .tabs-container{
+      height: calc(100% - 50PX);
+      width: 100%;
+  }
+}
+
+// 自定义TabBar
+.at-tab-bar{
+  padding: 0;
+  .at-tab-bar__item{
+    padding: 0 12PX;
+  }
+  .at-tab-bar__icon{
+    font-size: 24PX;
+  }
+  .at-tab-bar__title{
+    font-size: 12PX !important;
+  }
+}
+// 自定义Tabs
+.at-tabs{
+  .at-tabs__body{
+    height: calc(100% - 34PX);
+    .at-tabs-pane{
+        height: 100%;
+    }
+  }
+  .at-tabs__item{
+    font-size: 14PX;
+    padding: 0 0 12PX 0;
+    opacity: 0.25;
+  }
+  .at-tabs__item--active{
+    opacity: 1.0;
+  }
+  .at-tabs__item-underline{
+    width: 50%;
+    margin-left: 25%;
+    height: 2PX;
+  }
+}
+
+
+.search-tabs{
+    box-sizing: border-box;
+    .at-tabs__header {
+        margin-top: 5PX;
+    }
+    .at-tabs__body{
+        padding-top: 5PX;
+        height: calc(100% - 44PX);
+    }
+    .at-tabs__item-underline{
+        width: 36%;
+        margin-left: 32%;
+        height: 2PX;
+    }
+}

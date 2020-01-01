@@ -1,0 +1,56 @@
+.NewSongs {
+  width: 100%;
+  height: 100%;
+
+  .item-scroll{
+    height: calc(100vh - 50PX - 46PX - 34PX);
+
+    .song-itembox {
+      width: 100%;
+      padding: 16PX;
+      display: flex;
+      transition: all 250ms ease;
+      box-sizing: border-box;
+
+      .song-info{
+        height: 15vw;
+        width: 80%;
+        display: flex;
+        .cover {
+            height: 15vw;
+            .cover-img{
+                height: 100%;
+                width: 15vw;
+            }
+        }
+        .info {
+            margin-left: 16PX;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .name {
+              font-size: 28px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+            .singer {
+              font-size: 24px;
+              color: #999;
+            }
+        }
+      }
+      .play-icon{
+          height: 15vw;
+          width: 20%;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+      }
+    }
+    .play-active{
+        background: #FCFCFC;
+        box-shadow: 0px 12px 24px 0px rgba(73, 73, 73, 0.4);
+    }
+  }
+}

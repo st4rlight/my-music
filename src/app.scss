@@ -1,0 +1,63 @@
+page{
+    height: 100%
+}
+.taro_page{
+    height: 100%;
+}
+root{
+    height:100%;
+}
+
+// 搜索页面的搜索框
+.at-search-bar__input-cnt{
+    border-radius: 5PX !important;
+}
+.at-search-bar::after{
+    display: none;
+}
+
+// 推荐标签
+.at-tag{
+    font-size: 13PX;
+    margin: 5PX 7PX;
+}
+
+// 弹出层
+.Detail, .index{
+    .play-detail-container{
+        .at-float-layout__container{
+            max-height: 100% !important;
+            height: 100% !important;
+        }
+        .at-float-layout .layout-body{
+            max-height: 100% !important;
+            height: 100% !important;
+            padding: 0 !important;
+        }
+        .at-float-layout .layout-body__content{
+            max-height: 100% !important;
+            height: 100% !important;
+        }
+    }
+}
+.play-list-container{
+    .at-float-layout__container{
+        max-height: 50% !important;
+        height: 50% !important;
+    }
+    .at-float-layout .layout-body{
+        max-height: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+    }
+    .at-float-layout .layout-body__content{
+        max-height: 100% !important;
+        height: 100% !important;
+    }
+}
+
+// 播放列表清空提示框
+.playlist-modal-container{
+    top: -50vh !important;
+    height: 100vh !important;
+}

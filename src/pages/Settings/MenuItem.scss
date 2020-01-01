@@ -1,0 +1,42 @@
+@mixin my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting-menu-item{
+    height: 60PX;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background: #fff;
+    &:hover{
+        background: #e4e5e7;
+    }
+
+    .setting-icon{
+        width: 15%;
+        height: 100%;
+        @include my-flex;
+    }
+    .right-title{
+        width: 70%;
+        height: 100%;
+        font-size: 16PX;
+        display: flex;
+        align-items: center;
+        // margin-left: 5PX;
+    }
+    .right-icon-container{
+        width: 15%;
+        height: 100%;
+        @include my-flex;
+    }
+    .underline{
+        border-bottom: 1px solid #f4f4f8;
+    }
+}
+
+.single-setting{
+    margin: 10PX 0;
+}

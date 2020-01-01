@@ -1,0 +1,21 @@
+.my-tab-container{
+    width: 100%;
+    height: 100%;
+    background: #f4f4f6;
+
+    .common-title{
+        width: 100%;
+        height: 46PX;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18PX;
+        padding-left: 18PX;
+        background-color: #fff;
+    }
+
+    .tab{
+        width: 100%;
+        height: calc(100% - 46PX);
+    }
+}

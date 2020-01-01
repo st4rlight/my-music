@@ -1,0 +1,114 @@
+@mixin my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-list{
+    width: 100%;
+    height: 100%;
+
+    .play-list-title{
+        width: 100%;
+        height: 6vh;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+        display: flex;
+        .left-mode{
+            height: 100%;
+            width: 85%;
+            display: flex;
+            .mode-icon{
+                width: 15%;
+                height: 100%;
+                @include my-flex;
+            }
+            .mode-text{
+                width: 85%;
+                height: 100%;
+                @include my-flex;
+                justify-content: start;
+            }
+        }
+        .right-clear{
+            height: 100%;
+            width: 15%;
+            @include my-flex;
+        }
+    }
+    .play-list-body{
+        width: 100%;
+        height: calc(100% - 12vh);
+        padding: 2PX;
+        box-sizing: border-box;
+
+        .item-scroll{
+            width: 100%;
+            height: calc(100%);
+
+            .list-item-container{
+                width: 100%;
+                height: 5vh;
+                display: flex;
+
+                .left-container{
+                    width: 90%;
+                    height: 100%;
+                    display: flex;
+                    &:hover{
+                        background: #efefef;
+                    }
+
+                    .idx-container{
+                        width: 12%;
+                        height: 100%;
+                        @include my-flex;
+                    }
+                    .play-active{
+                        display: flex !important;
+                        justify-content: start;
+                        align-items: center;
+                    }
+                    .play-icon{
+                        width: 12%;
+                        height: 100%;
+                        display: none;
+                    }
+                    .song-info{
+                        width: 76%;
+                        height: 100%;
+                        @include my-flex;
+                        justify-content: start;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                    .space-container{
+                        height: 100%;
+                        width: 12%;
+                        display: none;
+                    }
+                }
+                .remove-icon{
+                    width: 10%;
+                    height: 100%;
+                    @include my-flex;
+                    &:hover{
+                        background: #efefef;
+                    }
+                }
+            }
+        }
+    }
+    .play-list-bottom{
+        width: 100%;
+        height: 6vh;
+        font-weight: bold;
+        font-size: 14PX;
+        @include my-flex;
+        box-shadow: 0px 12px 24px 0px rgba(73, 73, 73, 0.4);
+
+        &:hover{
+            background: #fcfcfc;
+        }
+    }
+}

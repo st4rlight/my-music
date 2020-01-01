@@ -1,0 +1,31 @@
+.logos-container{
+  padding-left: 10PX;
+  box-sizing: border-box;
+  .at-col{
+    padding: 6PX 4PX;
+    display: inline-block;
+    .logo-active{
+      opacity: 1.0;
+      border: 4PX solid #d0d0d0;
+      transition: border-width 0.3s ease;
+    }
+    .logo-inactive{
+      opacity: 0.2;
+      transition: border-width 0.3s ease;
+    }
+    .logo-view-radius{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 34PX;
+      height: 34PX;
+      border-radius: 50%;
+      box-sizing: border-box;
+      .music-logo{
+        width: 26PX;
+        height: 26PX;
+        border-radius: 50%;
+      }
+    }
+  }
+}

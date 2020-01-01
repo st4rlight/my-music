@@ -1,0 +1,78 @@
+@mixin my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .search-bar{
+        width: 90%;
+        height: 40PX;
+    }
+    .navi-result-container{
+        width: 100%;
+        height: calc(100% - 40PX);
+
+        .navi-container{
+            width: 100%;
+            height: 100%;
+
+            .search-icons{
+              width: 100%;
+              height: 40PX;
+              margin: 15PX 0;
+              @include my-flex;
+
+              .item{
+                height: 100%;
+                width: 40%;
+                @include my-flex;
+
+                .title{
+                  margin-left: 10PX;
+                }
+              }
+              .left{
+                border-right: 1px solid #ddd;
+              }
+              .right{
+                border-left: 1px solid #ddd;
+              }
+            }
+            .recommend{
+              width: 100%;
+              height: 150PX;
+              .hot-list{
+                  width: 100%;
+                  height: 125PX;
+              }
+            }
+            .history{
+              margin-top: 10PX;
+              width: 100%;
+              height: calc(100% - 40PX - 180PX - 46PX);
+              .item-list{
+                width: 100%;
+                height: 95%;
+              }
+            }
+        }
+        .result-container{
+            width: 100%;
+            height: calc(100% - 40PX);
+            padding: 0 5vw;
+            box-sizing: border-box;
+            .item-scroll{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

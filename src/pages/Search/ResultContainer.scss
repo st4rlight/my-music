@@ -1,0 +1,56 @@
+@mixin my-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container{
+    width: 100%;
+    .title{
+      height: 35PX;
+      display: flex;
+
+      .color-block{
+        height: 100%;
+        width: 30PX;
+        @include my-flex;
+        box-sizing: border-box;
+
+        .color-strip{
+          width: 5PX;
+          height: 16PX;
+        }
+      }
+      .platform-name{
+        height: 100%;
+        width: calc(100% - 110PX);
+        @include my-flex;
+        justify-content: start;
+        font-size: 12PX;
+        color: #595959;
+      }
+      .right-icon-container{
+        height: 100%;
+        width: 80PX;
+        @include my-flex;
+
+        .right-icon{
+          height: 20PX;
+          width: 50PX;
+          border: 1PX solid #595959;
+          color: #595959;
+          border-radius: 10PX;
+          font-size: 12PX;
+          @include my-flex;
+        }
+        .active{
+          background: black;
+          color: white;
+        }
+      }
+    }
+    .body{
+      box-sizing: border-box;
+      border-bottom: 1px solid #f4f4f6;
+    }
+}
